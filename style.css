@@ -22,3 +22,64 @@ button {
     background-color: #025157;
     color: #fff;
 }
+.features{
+    display: grid;
+    grid-template: repeat(2 , 1fr) / repeat(2 , 1fr);
+    height: 600px;
+    background-color: #025157;
+    padding: 5% 10%;
+}
+.feature-card{
+    padding: 0 15px 20px;
+}
+.feature-content{
+    display: flex;
+    background-color: #ffffff;
+    border-radius: 10px;
+    height: 100%;
+    overflow: hidden;
+}
+.feature-content .feature-text{
+    flex: 2;
+    padding: 10px 20px;
+}
+.feature-text figure{
+    margin-left: 0;
+}
+.feature-text img {
+ height: 30px;
+}
+.feature-content .feature-text h3 {
+    font-size: 24px;
+    color: #343434;
+    font-weight: 400;
+}
+.feature-content .feature-text p{
+    font-size: 16px;
+    color: #7e7e7e;
+    font-weight: 400;
+}
+.feature-content .feature-text a{
+    font-size: 16px;
+    color: #67b54b;
+    font-weight: 600;
+    text-decoration: none;
+}
+.feature-content .feature-image{
+    flex: 1;
+}
+.feature-image figure img {
+    width: 100%;
+}
+.feature-image figure {
+    width: 100%;
+}
+.feature-image img {
+    width: 100%;
+}
+.movimiento{
+    transition: width 1s;
+}
+.movimiento:hover{
+    width: 150%;
+}
