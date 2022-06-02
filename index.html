@@ -2,37 +2,74 @@
 <html>
 
 <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@1,500;1,900&family=Cinzel&family=Cormorant+Garamond:wght@300&family=Sen&display=swap"
+        rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <title>matcha</title>
 </head>
 
+<header class="header">
+    <a href="#" class="image_matcha">
+        <img src="./images/matcha-symbol.svg" alt="Logo de matcha">
+    </a>
+    <nav class="navbar">
+        <ul>
+            <li>Platform</li>
+            <li>Pricing</li>
+            <li>Customers</li>
+            <li>Resources</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="actions">
+        <a href="">Sign In</a>
+        <button>Start free trial</button>
+    </div>
+</header>
+
 <body>
-    <h1>Buil your blog. Build your bussines</h1>
-    <h3>Instantly publish articles, drive more traffic, grow your email list, and see your blog’s impact on sales.</h3>
-    <form>
-        <input type="email" />
-        <button type="submit">Try it now &rarr;</button>
-    </form>
-    <p>Start publishing today with a <strong>free 7-day trial.<br />
-            No credit card</strong> required.</p>
-    <img src="./images/acapterra.png" alt="capterra" />
+    <!--Esta es la seccion principal-->
+    <section class="main">
+        <h1>Buil your blog. Build your bussines</h1>
+        <h3>Instantly publish articles, drive more traffic, grow your email list, and see your blog’s impact on sales.
+        </h3>
+        <form>
+            <input type="email" />
+            <button type="submit">Try it now &rarr;</button>
+        </form>
+        <p>
+            Start publishing today with a <strong> free 7-day trial.<br />
+                No credit card</strong> required.
+        </p>
+        <figure class="first-image">
+            <img src="./images/acapterra.png" alt="capterra" />
+        </figure>
+        <figure class="second-image">
+            <img src="./images/intro_group_image.png" alt="Intro to matcha">
+        </figure>
+    </section>
     <section class="features">
         <article class="feature-card">
             <div class="feature-content">
                 <div class="feature-text">
                     <figure>
                         <img src="./images/copy-solid.svg" alt="Publish icon">
-                      </figure>
-                      <h3>Fill your blog with engaging articles.</h3>
-                      <p>
+                    </figure>
+                    <h3>Fill your blog with engaging articles.</h3>
+                    <p>
                         Publish to your blog in less time than it takes to drink your
                         morning coffee.
-                      </p>
-                      <a href="">Publish instantly →</a>
+                    </p>
+                    <a href="">Publish instantly →</a>
                 </div>
                 <div class="feature-image">
                     <figure class="movimiento">
-                        <img src="https://getmatcha.com/wp-content/uploads/2020/08/Group-376-1.png" alt="feature-img"/>
+                        <img src="https://getmatcha.com/wp-content/uploads/2020/08/Group-376-1.png" alt="feature-img" />
                     </figure>
                 </div>
             </div>
@@ -42,18 +79,18 @@
                 <div class="feature-text">
                     <figure>
                         <img src="./images/copy-solid.svg" alt="Publish icon">
-                      </figure>
-                      <h3>Attract and engage more website visitors.</h3>
-                      <p>
+                    </figure>
+                    <h3>Attract and engage more website visitors.</h3>
+                    <p>
                         Enhance your email, social media channels, and paid ads with content from Matcha.
-                      </p>
-                      <a href="">
+                    </p>
+                    <a href="">
                         Get more site traffic →
-                      </a>
+                    </a>
                 </div>
                 <div class="feature-image">
                     <figure class="movimiento">
-                        <img src="https://getmatcha.com/wp-content/uploads/2020/08/Group-376-1.png" alt="feature-img"/>
+                        <img src="https://getmatcha.com/wp-content/uploads/2020/08/Group-376-1.png" alt="feature-img" />
                     </figure>
                 </div>
             </div>
@@ -63,16 +100,16 @@
                 <div class="feature-text">
                     <figure>
                         <img src="./images/copy-solid.svg" alt="Publish icon">
-                      </figure>
-                      <h3>FCapture more emails with locked content.</h3>
-                      <p>
+                    </figure>
+                    <h3>FCapture more emails with locked content.</h3>
+                    <p>
                         Convert 10x more of your traffic into subscribers and nurture them to a sale.
-                      </p>
-                      <a href="">Grow your email list faster →</a>
+                    </p>
+                    <a href="">Grow your email list faster →</a>
                 </div>
                 <div class="feature-image">
                     <figure class="movimiento">
-                        <img src="https://getmatcha.com/wp-content/uploads/2020/08/Group-376-1.png" alt="feature-img"/>
+                        <img src="https://getmatcha.com/wp-content/uploads/2020/08/Group-376-1.png" alt="feature-img" />
                     </figure>
                 </div>
             </div>
@@ -82,21 +119,23 @@
                 <div class="feature-text">
                     <figure>
                         <img src="./images/copy-solid.svg" alt="Publish icon">
-                      </figure>
-                      <h3>FOptimize your blog’s performance.</h3>
-                      <p>
+                    </figure>
+                    <h3>FOptimize your blog’s performance.</h3>
+                    <p>
                         See what content delivers the most traffic, engagement, email subscribers, and sales.
-                      </p>
-                      <a href="">See content’s ROI →</a>
+                    </p>
+                    <a href="">See content’s ROI →</a>
                 </div>
                 <div class="feature-image">
                     <figure class="movimiento">
-                        <img src="https://getmatcha.com/wp-content/uploads/2020/08/Group-376-1.png" alt="feature-img"/>
+                        <img src="https://getmatcha.com/wp-content/uploads/2020/08/Group-376-1.png" alt="feature-img" />
                     </figure>
                 </div>
             </div>
         </article>
     </section>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
 </body>
 
 </html>

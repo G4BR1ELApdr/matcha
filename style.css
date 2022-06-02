@@ -1,10 +1,8 @@
 h1 {
     color: #025157;
-    font-family: "Alegreya", serif;
-    font-size: 60px;
-    margin-bottom: 24px;
+
 }
-.h3 {
+h3 {
     color: #46484c;
     font-family: "Slabo 27px", serif;
     font-size: 20px;
@@ -12,15 +10,85 @@ h1 {
 }
 p {
     color: #8b8b8bcc;
-    margin-top: 15px;
+
 }
 body {
     background-color: #fffbf7;
-    align-content: center !important;
+    margin: 0%;
+    font-family: "Open Sans", sans-serif;
 }
 button {
     background-color: #025157;
     color: #fff;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 22px;
+
+}
+
+header a img {
+    width: 30px;
+}
+.image_matcha{
+    width: 15%;
+}
+.navbar{
+    width: 60%;
+    text-align: center;
+    color: #025157;
+}
+.actions{
+    width: 20%;
+    text-align: right;
+    font-size: 14px;
+    font-weight: 600;
+}
+.actions a {
+    color: #67b54b;
+    text-decoration: none;
+}
+.actions button {
+    color: white;
+    background-color: #67b54b;
+    padding: 7%;
+    border: 0;
+    border-radius: 5px;
+}
+.main h1 {
+    font-family: 'alegreya', sherif;
+    font-size: 40px;
+    font-weight: 900;
+}
+img {
+    width: 100%;
+    vertical-align: middle;
+}
+.second-image{
+    width: 60%;
+    vertical-align: middle;
+}
+.first-image{
+    width: 20%;
+    vertical-align: middle;
+}
+.main{
+    text-align: center;
+}
+.header{
+    margin: 40px 20px 0px 20px;
+}
+header > * {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+    height: 100%;
+    line-height: 45px;
+}
+.header li {
+    display: inline;
+    margin: 0 15px;
+    color: #025157;
 }
 .features{
     display: grid;
@@ -82,4 +150,45 @@ button {
 }
 .movimiento:hover{
     width: 150%;
+}
+section form input{
+    border: 1px solid #b6b6b6;
+    padding:20px;
+    width: 60%;
+    max-width: 250px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    margin-right: -5px;
+}
+/* Media Querys */
+@media screen and (max-width: 425px){
+    .navbar,
+    .actions{
+        display: none;
+    }
+    .main h1{
+        font-size: 30px;
+    }
+
+    p{
+        margin: 0;
+    }
+    button{
+        margin-bottom: 10px;
+    }
+    .first-image{
+        width: 70%;
+    }
+    .second-image{
+        width: 100%;
+    }
+    .publish{
+        flex-direction: column;
+        margin: 15px 0;
+        width: 90%;
+    }
+    .features{
+        height: 100%;
+        grid-template: repeat(4,1fr)/ 1fr;
+    }
 }
