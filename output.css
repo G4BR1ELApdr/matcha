@@ -1,0 +1,71 @@
+.blog {
+  background-color: #fff;
+}
+.blog .title {
+  font-weight: 800;
+}
+.blog .process-list {
+  margin: 40px 0 36px;
+}
+.blog .process-list .process {
+  margin-bottom: 25px;
+  display: flex;
+}
+.blog .process-list .process > div > h3 {
+  color: #025157;
+  margin-bottom: 0;
+  font-size: 30px;
+  font-weight: 500;
+}
+.blog .process-list .process > div > p {
+  color: #135359;
+  margin: 0;
+}
+.blog .process-list .process .process-icon {
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+  text-align: center;
+}
+.blog .process-list .process .process-icon img {
+  height: 100%;
+}
+
+.card-body .card-title {
+  font-size: 24px;
+  color: #4a4a4a;
+}
+.card-body .metadata category {
+  color: #67b54b;
+}
+.card-body .metadata .read-time {
+  color: #979797;
+}
+.card-body .card-text {
+  color: #4a4a4a;
+  font-size: 18px;
+  line-height: 1.5em;
+  min-height: 6em;
+}
+.read-more .card-body .card-text > a {
+  text-decoration: none;
+  background-color: unset;
+}
+.card-body .author {
+  display: flex;
+  align-items: center;
+}
+.card-body .author img {
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+}
+.card-body .author p {
+  color: #4a4a4a;
+}
+
+.card {
+  height: 100%;
+}
+
+/*# sourceMappingURL=output.css.map */

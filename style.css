@@ -225,6 +225,7 @@ section form input{
 
 .company{
     position: absolute;
+    top: 265px;
     right: 20px;
     width: 100px;
     height: 100px;
@@ -233,6 +234,20 @@ section form input{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.card-body h5{
+    color: #025157;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    margin-bottom: 12px;
+    font-family: "Slabo 27px", serif;
+}
+.card-body h3 {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 20px;
 }
 /* Media Querys */
 @media screen and (max-width: 425px){
